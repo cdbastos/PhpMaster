@@ -3,7 +3,7 @@
 <html lang="es">
 <head>
     <link rel="stylesheet" href="./css/normalize.css" />
-    <title>Funciones para tipos de datos</title>
+    <title>Funciones para tipos de datos</title> 
 </head>
 <body>
     <h2>Funciones de PHP para probar los tipos de dato de las variables</h2>
@@ -30,5 +30,6 @@
         echo rand(1,10); // obtiene on numero aleatorio dentro de  un rango especificado
         echo "<br>";
     ?>
+    <p> prueba de sincronizacion </p>
 </body>
 </html>
