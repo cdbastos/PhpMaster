@@ -79,13 +79,33 @@
             
             $promedio = $total / $cuenta;
             
-            $promedioformat = number_format($promedio, 2, ',', '.');
+            //$promedioformat = number_format($promedio, 2, ',', '.');
             // especifica que le de 2 numeros despues de la coma y el separador de miles punto
             
-            echo "El promedio de las " . $cuenta . " calificaciones es " . $promedioformat . "<br/>" ;
+            echo "El promedio de las " . $cuenta . " calificaciones es " . number_format($promedio, 2, ',', '.') . "<br/>" ;
             echo "El numero de calificaciones superiores al 20% es " . $sup . "<br/>" ;
             echo "El numero de calificaciones inferiores al 20% es " . $inf . "<br/>" ;
         ?>
+        <h2>Eliminando elementos repetidos: </h2>
+        
+        <?php 
+            $repetido = array (
+                2, 2 , 3, 3, 4, 4, 5, 5, 6, 6
+            );
+            echo "<h3> Con elementos repetidos </h3>" ;
+            foreach ( $repetido as $i => $num ) {
+                echo $i . " => " . $num . "<br>" ;
+            }
+            
+            $no_repetido = array_unique( $repetido ) ;
+            sort( $no_repetido );
+            
+            echo "<h3> sin elementos repetidos </h3>" ;
+            foreach ( $no_repetido as $i => $num ) {
+                echo $i . " => " . $num . "<br>" ;
+            }
+        ?>
+        
 
 
     </body>
