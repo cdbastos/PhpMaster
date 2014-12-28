@@ -1,0 +1,59 @@
+/*
+Autor: Cristian Dario Bastos
+twitter: @cdbastos
+2014
+*/
+body {
+    background: #222;
+    color: #eee;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+section {
+    width: 60%;
+    margin: 5em 0 0 20%;
+    text-align: center;
+}
+
+h1 {
+    text-shadow: rgba(255,255,255,0.5) 0 0 5px;
+}
+
+form {
+    text-align: left;
+
+}
+
+form input {
+    color: #222;
+    border-radius: 0.5em;
+    text-align: left;
+}
+
+#boton {
+    background: #d23d15;
+    color: #eee;
+    padding: 0.5em 1em;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+
+#boton:hover {
+    background: #fff;
+    color: black;
+    transform: scale(1.1) ;
+    -moz-transform: scale(1.1) ;
+    -webkit-transform: scale(1.1) ;
+}
+
+table {
+    width: 60%;
+    margin-left: 20%;
+}
+
+table th, td {
+    padding: 0.5em;
+}
