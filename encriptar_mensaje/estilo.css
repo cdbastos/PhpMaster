@@ -1,0 +1,30 @@
+/*
+Autor: Cristian Dario Bastos
+twitter: @cdbastos
+2014
+*/
+/* 
+    Created on : 28/12/2014, 07:03:40 PM
+    Author     : Dao
+*/
+
+section {
+    margin-top: 1em;
+}
+
+textArea {
+    color: #222;
+    width: 90%;
+    margin-left: 5%;
+}
+
+#result {
+    color: #222;
+    background: #eee;
+    border-radius: 0.5em;
+    padding: 1% 3%;
+    text-align: left;
+    width: 86%;
+    margin-left: 4%;
+    
+}
